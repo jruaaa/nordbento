@@ -11,7 +11,7 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
+	name: 'Joey',
 	imageBackground: true,
 	openInNewTab: true,
 	twelveHourFormat: false,
@@ -53,15 +53,15 @@ const CONFIG = {
 	firstButtonsContainer: [
 		{
 			id: '1',
-			name: 'Github',
-			icon: 'github',
-			link: 'https://github.com/',
+			name: 'Shovel',
+			icon: 'calendar',
+			link: 'https://dig.shovelapp.io/196503/home',
 		},
 		{
 			id: '2',
-			name: 'Netflix',
-			icon: 'netflix',
-			link: 'https://netflix.com/',
+			name: 'Gradescope',
+			icon: 'send',
+			link: 'https://gradescope.com/',
 		},
 		{
 			id: '3',
@@ -71,9 +71,9 @@ const CONFIG = {
 		},
 		{
 			id: '4',
-			name: 'Shovel',
-			icon: 'calendar',
-			link: 'https://dig.shovelapp.io/196503/home',
+			name: 'Netflix',
+			icon: 'clapperboard',
+			link: 'https://netflix.com',
 		},
 		{
 			id: '5',
@@ -140,7 +140,11 @@ const CONFIG = {
 			links: [
 				{
 					name: 'MA261 Pearson',
-					link: 'https://purdue.brightspace.com/d2l/home/6824',
+					link: 'https://mylabmastering.pearson.com/?courseId=13001341#/',
+				},
+                {
+					name: 'MA261 Schedule',
+					link: 'https://www.math.purdue.edu/academic/courses/semester/202510/ma26100/2024-Fall.pdf',
 				},
 				{
 					name: 'PHYS172 Brightspace',
@@ -149,10 +153,6 @@ const CONFIG = {
 				{
 					name: 'ENGR133',
 					link: 'https://purdue-engr-13300.github.io/fall-2024/intro.html',
-				},
-				{
-					name: 'Gradescope',
-					link: 'https://www.gradescope.com/',
 				},
 			],
 		},
