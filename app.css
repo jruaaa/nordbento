@@ -36,17 +36,18 @@
 .darktheme {
   /* Dark Colors  */
   --accent: #434c5e; /* Hover color */
-  --background: #3b4252; /* Background color */
-  --cards: #201e21; /* Cards color */
+  --background: #2e3440; /* Background color */
+  --cards: #3b4252; /* Cards color */
 
   /* Fonts Color */
   --fg: #d8dee9; /* Foreground color */
-  --sfg: #2c292e; /* Secondary Foreground color */
+  --sfg: #d8dee9; /* Secondary Foreground color */
 
   /* Image background  */
+  --imgbg: url(assets/background.jpg);
   --imgcol: linear-gradient(
-    rgba(0, 0, 0, 0.85),
-    rgba(0, 0, 0, 0.85)
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
   ); /* Filter color */
 }
 
@@ -317,7 +318,7 @@ body {
   margin-top: 1vh;
   padding: 8px 12px;
   border-radius: 5px;
-  font-weight: bold;
+  font-weight: lighter;
   text-align: center;
   width: 80%;
 }
